@@ -3,51 +3,77 @@
     <body style="font-family:sans-serif; background-color:#ffccff">
         <header style="background-color:#BA00A4; color:white">
             <p>
-            <img src="data:image/png;base64,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" width="80"/>
+            <img src="data:image/png;base64,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" width="120"/>
             <b>(G)-IDLE</b>
             </p>
             </header>
             <main style="background-color:#DF87F3">
-            <h2 style="color:white">Вміст сайту:</h2>
-            <p><a href="#info" style="color:#b300b3">Хто такі (G)-idle?</a></p>
-            <p><a href="#photo" style="color:#b300b3">Фото</a></p>
-            <p><a href="#table" style="color:#b300b3">Інформація про учасниць</a></p>
-            <p><a href="#moreinfo" style="color:#b300b3">Більше інформації</a></p>
-            <p><a href="#nomer" style="color:#b300b3">наш номер телефону</a></p>
-            <p><a href="#emeil" style="color:#b300b3">наша електронна пошта</a></p>
-            <h2 style="text-align:center;color:#990099">(G)-idle</h2>
-            <p id="info"><font color="#730099"><b>(G)I-DLE</b></font> південнокорейський дівочий гурт, сформований в 2018 році компанією <font color="#660066"><b>CUBE Entertainment</b></font>. Гурт складається з п'яти учасниць: Сойон, Мійон, Мінні, Юці та Шухуа. Гурт складався з шести учасниць, допоки Суджін не покинула його у 2021 році. Дебют <font color="#730099"><b>(G)I-DLE</b></font> відбувся 2 травня 2018 року з мініальбомом <font color="#e600e6"><b>I Am</b></font>.</p>
-            <img src="https://kpopanswers.com/wp-content/uploads/2023/06/how-old-are-g-idle-members-age-birthday.jpg" width="563" id="photo"/>
+            <h2 style="color:white">★ Вміст сайту:</h2>
+            <p><a href="#info" style="color:#b300b3">• Хто такі (G)-idle?</a></p>
+            <p><a href="#predebut" style="color:#b300b3">• Предебют</a></p>
+            <p><a href="#fandom" style="color:#b300b3">• Фандом</a></p>
+            <p><a href="#photo" style="color:#b300b3">• Фото</a></p>
+            <p><a href="#table" style="color:#b300b3">• Інформація про учасниць</a></p>
+            <p><a href="#moreinfo" style="color:#b300b3">• Більше інформації</a></p>
+            <p><a href="#nomer" style="color:#b300b3">• наш номер телефону</a></p>
+            <p><a href="#emeil" style="color:#b300b3">• наша електронна пошта</a></p>
+                <h2 id="info" style="text-align:center;color:#990099">(G)-idle</h2>
+            <p  style="background-color:#ecb3ff;color:#4d0066"><font color="#730099"><b>(G)I-DLE</b></font> південнокорейський дівочий гурт, сформований в 2018 році компанією <font color="#660066"><b>CUBE Entertainment</b></font>. Гурт складається з п'яти учасниць: Сойон, Мійон, Мінні, Юці (Уґґі) та Шухуа. Гурт складався з шести учасниць, допоки Суджін не покинула його у 2021 році. Дебют <font color="#730099"><b>(G)I-DLE</b></font> відбувся 2 травня 2018 року з мініальбомом <font color="#e600e6"><b>I Am</b></font>.</p>
+                <h2 id="predebut" style="color:#600080; text-align:center">Предебют</h2>
+            <p style="color:#4d0066;background-color:#dd99ff">У 2015 році <font color="#e60000"><b>Сойон</b></font> була обрана, щоб для представляти <font color="#660066"><b>Cube Entertainment</b></font> на реаліті-шоу Produce 101. Вона стала однією з найпопулярніших учасниць, проте у фінальному підсумку вона посіла 20 місце, а тому не дебютувала у проектному жіночому гурті <font color="#ffccdd"><b>I.O.I.</b></font> Також Сойон брала участь у третьому сезоні шоу Unpretty Rapstar, де посіла друге місце. Пізніше вона дебютувала як сольна виконавиця, випустивши сингли «Jelly» та «Idle Song».</p>
+            <p style="color:#4d0066;background-color:#dd99ff"><font color="#ff3377"><b>Мійон</b></font> — найстарша з учасниць, — протягом п'яти років (з 2010 по 2015) була трейні YG Entertainment.</p>
+            <p style="color:#4d0066;background-color:#dd99ff"> <font color="#800040"><b>Мінні</b></font>, <font color="#e6e600"><b>Юці</b></font> та <font color="#1a8cff"><b>Шухуа</b></font> з'являлися в рекламі для бренду Rising Star Cosmetic у червні 2017 року. Шухуа знімалася у відеокліпі 10 cm «Pet» у вересні 2017 року. Мінні брала участь в альбомі Dance Party Line Friends, який вийшов у листопаді. З квітня 2018 вони з Мійон випустили серію каверів на YouTube-каналі Dingo Music. Юці з'являлася на тому ж каналі у невеликому ролику.</p>
+
+            <p style="color:#4d0066;background-color:#dd99ff">22 березня 2018 року <font color="#660066"><b>Cube Entertainment</b></font> анонсував дебют Сойон у новому жіночому гурті. 5 квітня було оголошено його назву — <font color="#730099"><b>(G)I-DLE</b></font>. З 8 квітня розпочалася публікація індивідуальних тизерів майбутніх учасниць. Вони стали першим жіночим гуртом <font color="#660066"><b>Cube Entertainment</b></font> з часів дебюту CLC у 2015 році та другим — від дебюту 4minute у 2009 році.</p>
+            <h2 id ="fandom" style="text-align:center;color:#660066">Фандом</h2>
+            <p style="color:#4d0066;background-color:#d580ff">Офіційна назва фандому — <font color="#800080"><b>Neverland</b></font>. Вона пов'язана з назвою вигаданої країни Неверленд з книжок шотландського письменника сера Джеймса Баррі. У цій країні діти ніколи не дорослішають. Так само учасниці гурту мають залишалися незмінними разом зі своїми фанатами у цій чарівній країні. Цю назву було оприлюднено 29 жовтня 2018 року.</p>
+
+
+            <img src="https://kpopanswers.com/wp-content/uploads/2023/06/how-old-are-g-idle-members-age-birthday.jpg" width="570" id="photo"/>
+            <img src="https://kpopping.com/documents/3a/1/1500/221106-Cube-Naver-Post-G-I-DLE-Nxde-MV-Shoot-documents-1.jpeg?v=4bf12" width="570" float="right"/>
             <table style="">
                 <tr style="border:2px solid #990099; background-color:#990099;color:#ffffff" id="table">
                     <td style="border:2px solid #990099">Ім'я</td>
                     <td style="border:2px solid #990099">Дата народження</td>
                     <td style="border:2px solid #990099">Позиція у групі</td>
+                    <td style="border:2px solid #990099">Ім'я латиницею</td>
+                    <td style="border:2px solid #990099"> Ім'я Хангилем /
+Тайською / Китайською</td>
                 </tr>
                 <tr>
                     <td style="border:2px solid #990099; background-color:#ffccff; color:#cc00cc">Сойон</td>
                     <td style="border:2px solid #990099">26 серпня 1998 (25 років)</td>
                     <td style="border:2px solid #990099">Лідерка, головна реперка, центр</td>
+                    <td style="border:2px solid #990099">Soyeon</td>
+                    <td style="border:2px solid #990099">전소연</td>
                 </tr>
                 <tr>
                     <td style="border:2px solid #990099; background-color:#ffccff; color:#cc00cc">Мійон</td>
                     <td style="border:2px solid #990099">31 січня 1997 (26 років)</td>
                     <td style="border:2px solid #990099">Головна вокалістка</td>
+                    <td style="border:2px solid #990099">Miyeon</td>
+                    <td style="border:2px solid #990099">조미연</td>
                 </tr>
                 <tr>
                     <td style="border:2px solid #990099; background-color:#ffccff; color:#cc00cc">Мінні</td>
                     <td style="border:2px solid #990099">23 жовтня 1997 (25 років)</td>
                     <td style="border:2px solid #990099">Головна вокалістка</td>
+                    <td style="border:2px solid #990099">Minnie</td>
+                    <td style="border:2px solid #990099">มินนี่ ณิชา ยนตรรักษ์</td>
                 </tr>
                 <tr>
                     <td style="border:2px solid #990099; background-color:#ffccff; color:#cc00cc">Юці</td>
                     <td style="border:2px solid #990099">23 вересня 1999 (24 роки)</td>
                     <td style="border:2px solid #990099">Головна танцюристка, ведуча вокалістка, віжуал</td>
+                    <td style="border:2px solid #990099">Yuqi</td>
+                    <td style="border:2px solid #990099">宋雨琦</td>
                 </tr>
                 <tr>
                     <td style="border:2px solid #990099; background-color:#ffccff; color:#cc00cc">Шухуа</td>
                     <td style="border:2px solid #990099">6 січня 2000 (23 роки)</td>
                     <td style="border:2px solid #990099">Вокалістка, віжуал, макне</td>
+                    <td style="border:2px solid #990099">Shuhua</td>
+                    <td style="border:2px solid #990099">葉舒華</td>
                 </tr>
             </table>
             <p>За покупкою різного офіційного стафу з учасницями звертайтесь до:<a href="https://shop.gidleofficial.com/">https://shop.gidleofficial.com</a></p>
